@@ -1,7 +1,7 @@
 BrutusPanel
 ===========
 
-A easy-to-use PHP minecraft server control panel.
+An easy-to-use PHP minecraft server control panel.
 
 Installation: <br />
 1. Install RemoteToolKit <br />
