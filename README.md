@@ -3,6 +3,8 @@ BrutusPanel
 
 An easy-to-use PHP minecraft server control panel.
 
+Demo located at http://route1.sb-network.net/panel
+
 Installation: <br />
 1. Install RemoteToolKit <br />
 2. Install our RTK module into the modules folder of RemoteToolKit <br />
