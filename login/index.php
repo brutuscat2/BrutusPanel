@@ -11,12 +11,12 @@
     <title>BrutusPanel</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/theme.css" rel="stylesheet">
+    <link href="../css/theme.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -44,7 +44,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
+            <li><a href="..">Home</a></li>
             <li><a href="servers">Servers</a></li>
             <li class="active"><a href="#">Login</a></li>
           </ul>
