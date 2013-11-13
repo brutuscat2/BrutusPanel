@@ -23,14 +23,12 @@ require_once("php-login.php");
 // so this single line handles the entire login process.
 $login = new Login();
 
-// ... ask if we are logged in here:
-if ($login->isUserLoggedIn() == true) {
-    // the user is logged in. you can do whatever you want here.
-    // for demonstration purposes, we simply show the "you are logged in" view.
-    include("views/logged_in.php");
+// the user has just successfully entered a new password
+// so we show the index page = the login page
+if ($login->passwordResetWasSuccessful() == true && $login->passwordResetLinkIsValid() != true) {
+    include("views/not_logged_in.php");
 
 } else {
-    // the user is not logged in. you can do whatever you want here.
-    // for demonstration purposes, we simply show the "you are not logged in" view.
-    include("views/not_logged_in.php");
+    // show the request-a-password-reset or type-your-new-password form
+    include("views/password_reset.php");
 }
