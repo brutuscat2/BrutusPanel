@@ -78,6 +78,9 @@
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-primary">Sign in</button>
     </div>
+    <div class="form-group">
+       <button type="button" class="btn btn-warning btn-xs">Forgot Password?</button>
+    </div>
   </div>
 </form>
 
