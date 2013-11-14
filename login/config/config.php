@@ -1,13 +1,7 @@
 <?php
 
-/**
- * Configuration file for: Database Connection
- * This is the place where your database login constants are saved
- * 
- * For more info about constants please @see http://php.net/manual/en/function.define.php
- * If you want to know why we use "define" instead of "const" @see http://stackoverflow.com/q/2447791/1114320
- */
-/** database host, usually it's "127.0.0.1" or "localhost", some servers also need port info, like "127.0.0.1:8080" */
+// YOU MUST EDIT THIS OR THIS WILL NOT WORK.
+
 define("DB_HOST", "127.0.0.1");
 /** name of the database. please note: database and database table are not the same thing! */
 define("DB_NAME", "login");
@@ -16,6 +10,8 @@ define("DB_NAME", "login");
 define("DB_USER", "root");
 /** The password of the above user */
 define("DB_PASS", "mysql");
+/** Replace 127.0.0.1 with your website domain/IP */
+define('COOKIE_DOMAIN', '.127.0.0.1');
 
 /**
  * Configuration for: Cookies
@@ -29,7 +25,9 @@ define("DB_PASS", "mysql");
  * @see php.net/manual/en/function.setcookie.php
  */
 define('COOKIE_RUNTIME', 1209600); // 1209600 seconds = 2 weeks
-define('COOKIE_DOMAIN', '.127.0.0.1'); // the domain where the cookie is valid for, like '.mydomain.com'
+
+// You should probably change this
+
 define('COOKIE_SECRET_KEY', '1gp@TMPS{+$78sfpMJFe-92s'); // use to salt cookie content and when changed, can invalidate all databases users cookies
 
 /**
@@ -56,6 +54,9 @@ define('COOKIE_SECRET_KEY', '1gp@TMPS{+$78sfpMJFe-92s'); // use to salt cookie c
  * It's really recommended to use SMTP!
  * 
  */
+
+// Change this for password reset
+
 define("EMAIL_USE_SMTP", false);
 define("EMAIL_SMTP_HOST", 'yourhost');
 define("EMAIL_SMTP_AUTH", true); // leave this true until your SMTP can be used without login

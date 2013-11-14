@@ -6,7 +6,9 @@ include('header.php');
 // login form box
 ?>            
 
- <table width="400" border="none" style="display:block;margin-left:auto;margin-right:auto;">
+ <table border="none" style="border:0;text-align:center;margin-left:auto;margin-right:auto;">
+   <tr style="border:0;">
+   <td width="400" style="border:0;">
    <form class="form-horizontal" type="post" action="index.php" role="form">
   <div class="form-group">
     <label for="user_name" class="col-sm-2 control-label">Username</label>
@@ -23,8 +25,8 @@ include('header.php');
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
-        <label>
-          <input type="checkbox" id="user_rememberme" name="user_rememberme"> Remember me
+        <label for="user_rememberme" class="control-label">Remember Me
+          <input type="checkbox" id="user_rememberme" name="user_rememberme">
         </label>
       </div>
     </div>
@@ -36,6 +38,8 @@ include('header.php');
     </div>
   </div>
 </form>
+</tr>
+</td>
 </table>
 
 <?php
