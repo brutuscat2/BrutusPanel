@@ -24,4 +24,4 @@ TODO:
 - Add way to read servers from MySQL
 - Instead of navbar on each page, use php include (Done, 95% working)
 - Add checks to make sure you can't access other servers
-
+- Make a module for RTK so the CP can interface with the MC server, and do a lot of cool stuff.
