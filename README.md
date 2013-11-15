@@ -20,7 +20,7 @@ Features:
 TODO:
 - Add installer
 - Add login script (done)
-- Add login checks (done, not tested)
+- Add login checks (done, not logged in works, don't know about logging in yet)
 - Add way to read servers from MySQL
 - Instead of navbar on each page, use php include (Done, not tested, but I'm confident in it)
 - Add checks to make sure you can't access other servers
