@@ -22,6 +22,6 @@ TODO:
 - Add login script (done)
 - Add login checks (done, not tested)
 - Add way to read servers from MySQL
-- Instead of navbar on each page, use php include
+- Instead of navbar on each page, use php include (Done, 95% working)
 - Add checks to make sure you can't access other servers
 
