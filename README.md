@@ -17,3 +17,11 @@ Features:
 - Fairly easy to install
 - Very capable
 
+TODO:
+- Add installer
+- Add login script (done)
+- Add login checks (done, not tested)
+- Add way to read servers from MySQL
+- Instead of navbar on each page, use php include
+- Add checks to make sure you can't access other servers
+
