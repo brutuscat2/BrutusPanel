@@ -32,7 +32,7 @@
 
 <?php
 
-require_once("php-login.php");
+require_once("../login/php-login.php");
 
 $login = new Login();
 
@@ -45,6 +45,6 @@ if ($login->isUserLoggedIn() == true) {
 } else {
     // the user is not logged in. you can do whatever you want here.
     // for demonstration purposes, we simply show the "you are not logged in" view.
-    include("login/index.php");
+    include("../login/index.php");
 }
 ?>
