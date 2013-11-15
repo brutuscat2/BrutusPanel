@@ -8,4 +8,5 @@
 
 <?php
   include("core_js.php");
+  include("debug/debug.php");
 ?>
