@@ -44,7 +44,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li ng-class="{ active: isActive('~/') }"><a href="#">Home</a></li>
+            <li ng-class="{ active: isActive('~/index.php') }"><a href="#">Home</a></li>
             <li ng-class="{ active: isActive('~/servers') }"><a href="servers">Servers</a></li>
             <li ng-class="{ active: isActive('~/login') }"><a href="login">Login</a></li>
           </ul>
