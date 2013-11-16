@@ -3,7 +3,7 @@ BrutusPanel
 
 An easy-to-use PHP minecraft server control panel.
 
-Demo located at http://route1.sb-network.net/panel
+Demo located at http://route1.sb-network.net
 
 Installation: <br />
 1. Install RemoteToolKit <br />
