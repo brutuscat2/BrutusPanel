@@ -40,8 +40,8 @@ if ($login->isUserLoggedIn() == true) {
     include("serverlist.php");
 
 } else {
-    // the user is not logged in. you can do whatever you want here.
-    // for demonstration purposes, we simply show the "you are not logged in" view.
-    include("../login/index.php");
+    include("../navbar.php");
+    include("classes/alerts/no_login.php");
+    include("../login/login-noheader.php");
 }
 ?>
