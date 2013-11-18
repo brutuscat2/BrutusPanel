@@ -21,5 +21,5 @@ TODO:
 - Add installer
 - Add login checks (done, not logged in works, don't know about logging in yet)
 - Add way to read servers from MySQL
-- Add checks to make sure you can't access other servers
+- Add checks to make sure you can't access other servers, I'm actually doing this last after I'm sure the panel works.
 - Make a module for RTK so the CP can interface with the MC server, and do a lot of cool stuff.
