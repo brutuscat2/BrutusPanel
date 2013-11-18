@@ -25,3 +25,4 @@ TODO:
 - Instead of navbar on each page, use php include (Done, not tested, but I'm confident in it)
 - Add checks to make sure you can't access other servers
 - Make a module for RTK so the CP can interface with the MC server, and do a lot of cool stuff.
+- Change /login index.php file
