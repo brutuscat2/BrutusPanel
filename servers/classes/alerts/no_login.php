@@ -4,6 +4,9 @@
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.css" rel="stylesheet">
 
+    <!-- Alert Fadein/out code -->
+    <script src="/css/alert.js"></script>
+
     <!-- Custom styles for this template -->
     <link href="css/theme.css" rel="stylesheet">
 
@@ -18,7 +21,7 @@
 <table border="none" style="border:0;text-align:center;margin-left:auto;margin-right:auto;">
    <tr style="border:0;">
    <td width="500" style="border:0;">
-  <div class="alert alert-info">
+  <div id="myAlert" class="alert alert-info">
     <span class="glyphicon .glyphicon-info-sign"></span> You need to login to gain access to this page.
   </div>
 </td></tr></table>
